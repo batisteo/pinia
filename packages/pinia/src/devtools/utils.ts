@@ -20,7 +20,7 @@ export function toastMessage(
   } else if (type === 'warn') {
     console.warn(piniaMessage)
   } else {
-    console.log(piniaMessage)
+    console.debug(piniaMessage)
   }
 }
 
